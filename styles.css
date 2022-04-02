@@ -145,6 +145,49 @@ button:hover {
 
 #main {
     background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 66% 1fr;
+    grid-template-rows: 1fr;
+}
+
+#leftmain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65px 1fr;
+    margin: 0px 18px 65px 18px;
+}
+
+#cardscontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card {
+    background-color: #ffffff;
+}
+
+#rightmain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65px 1fr 65px 1fr;
+}
+
+#announcementscontainer {
+    background-color: #ffffff;
+    margin-right: 18px;
+}
+
+#trendingcontainer {
+    background-color: #ffffff;
+    margin: 0px 18px 65px 0px;
 }
 
 /* #1992d4
