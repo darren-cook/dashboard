@@ -227,6 +227,52 @@ button:hover {
 #announcementscontainer {
     background-color: #ffffff;
     margin-right: 18px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    box-shadow: 3px 5px 3px #b4b4b477;
+    border-radius: 10px;
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.borderbottom {
+    border: .5px solid #d6d6d6;
+    width: 87%;
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+}
+
+#announcementtitle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;  
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 1px;
+}
+
+#announcementbody {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #a3a3a3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11px;  
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 #trendingcontainer {
