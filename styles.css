@@ -146,15 +146,22 @@ button:hover {
 #main {
     background-color: #e2e8f0;
     display: grid;
-    grid-template-columns: 66% 1fr;
+    grid-template-columns: 75% 1fr;
     grid-template-rows: 1fr;
+}
+
+.maintitle {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;  
 }
 
 #leftmain {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 65px 1fr;
-    margin: 0px 18px 65px 18px;
+    grid-template-rows: 55px 1fr;
+    margin: 0px 18px 55px 18px;
 }
 
 #cardscontainer {
@@ -172,12 +179,49 @@ button:hover {
 
 .card {
     background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 5px 3px #b4b4b477;
+    border-left: 8px solid #eeb21b;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cardtitle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;  
+    margin-left: 25px;
+    margin-bottom: 3px;
+}
+
+.cardbody {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #a3a3a3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;  
+    margin-left: 25px;
+}
+
+.cardactions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+    gap: 25px;
 }
 
 #rightmain {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 65px 1fr 65px 1fr;
+    grid-template-rows: 55px 1fr 55px 1fr;
 }
 
 #announcementscontainer {
@@ -187,7 +231,7 @@ button:hover {
 
 #trendingcontainer {
     background-color: #ffffff;
-    margin: 0px 18px 65px 0px;
+    margin: 0px 18px 55px 0px;
 }
 
 /* #1992d4
