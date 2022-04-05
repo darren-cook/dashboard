@@ -209,6 +209,7 @@ button:hover {
     font-weight: bold;
     font-size: 13px;  
     margin-left: 25px;
+    margin-right: 5px;
 }
 
 .cardactions {
